@@ -6,7 +6,6 @@ def get_args():
     parser.add_argument("-d", "--dialog",dest="dialog", action='store_true', help="Automatic dialogue beetween 2 characters")
     parser.add_argument("-i", "--interactive", dest="interactive", action='store_true', help="Chat interactively with one character")
     parser.add_argument("-o", "--output", dest="output", help="Save the output to a file")
-    parser.add_argument("-s", "--start", dest="start", action='store_true', help="Add a <START> token at the beginning of the next line")
     args = parser.parse_args()
 
     if args.chara is None:

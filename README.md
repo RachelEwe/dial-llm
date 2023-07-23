@@ -21,5 +21,4 @@ optional arguments:
   -i, --interactive     Chat interactively with one character
   -o OUTPUT, --output OUTPUT
                         Save the output to a file
-  -s, --start           Add a <START> token at the beginning of the next line
 ```
